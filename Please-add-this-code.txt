@@ -1,0 +1,16 @@
+* Forgot to mention in the tutorial, Please add background-position,background-repeat,background-size properties to the .grid in style.css File line no:29, already included in the source file.
+
+* background-position: center; used to center a background image in a div
+* background-repeat: no-repeat; used to show background image is only once
+* background-size: cover; used to cover background image always the entire in div.
+
+.grid{
+    position: relative;
+    width: 33.33%;
+    float: left;
+    height: 200px;
+    color: #FFF;
+    background-position: center; /* Forgot to mention in the tutorial, please add this line*/
+    background-repeat: no-repeat; /* Forgot to mention in the tutorial, please add this line*/
+    background-size: cover; /* Forgot to mention in the tutorial, please add this line*/
+}
